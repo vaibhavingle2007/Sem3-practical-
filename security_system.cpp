@@ -8,9 +8,15 @@ int main(){
     int a, i=0;
     string text,old,password1,password2,pass,name,password0,age,user,word,word1;
     string creds[2],cp[2];
-    cout<<"    Security System "<<endl;
+    cout<<" ######  ########  ######  ##     ## ########  #### ######## ##    ##     ######  ##    ##  ######  ######## ######## ##     ## "<<endl;
+    cout<<"##    ## ##       ##    ## ##     ## ##     ##  ##     ##     ##  ##     ##    ##  ##  ##  ##    ##    ##    ##       ###   ### "<<endl;
+    cout<<"##       ##       ##       ##     ## ##     ##  ##     ##      ####      ##         ####   ##          ##    ##       #### #### "<<endl;
+    cout<<" ######  ######   ##       ##     ## ########   ##     ##       ##        ######     ##     ######     ##    ######   ## ### ## "<<endl;
+    cout<<"      ## ##       ##       ##     ## ##   ##    ##     ##       ##             ##    ##          ##    ##    ##       ##     ## "<<endl;
+    cout<<"##    ## ##       ##    ## ##     ## ##    ##   ##     ##       ##       ##    ##    ##    ##    ##    ##    ##       ##     ## "<<endl;
+    cout<<" ######  ########  ######   #######  ##     ## ####    ##       ##        ######     ##     ######     ##    ######## ##     ## "<<endl;
     
-    cout<<"_____________________________"<<endl<<endl;
+    cout<<"_____________________________"<<endl;
     cout<<"|          1.Register        |"<<endl;
     cout<<"|          2.login           |"<<endl;
     cout<<"|          3.Change password |"<<endl;
@@ -22,9 +28,9 @@ int main(){
         cin>>a;
         switch(a){
             case 1:{
-                cout<<"_________________________________"<<endl<<endl;
-                cout<<"|-----------Register-------------"<<endl;
-                cout<<"|________________________________"<<endl;
+                cout<<"  ________________________________"<<endl<<endl;
+                cout<<" |-----------Register-------------|"<<endl;
+                cout<<" |________________________________|"<<endl;
                 cout<<"Please enter username:- ";
                 cin>>name;
                 cout<<"Please enter the password:- "<<"\n";
